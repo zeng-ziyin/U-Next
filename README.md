@@ -20,3 +20,14 @@ If you want to use Toronto3D, run this before the previous command line
 ```
 python process_toronto3d.py
 ```
+
+### (3) Train & Test
+If you don't want to use MDS, run this
+```
+python main_$data_you_want_use$.py --mode train & test
+```
+
+If you want to use MDS, run this
+```
+python main_$data_you_want_use$_ds.py --mode train & test
+```
