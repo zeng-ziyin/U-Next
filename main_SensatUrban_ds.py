@@ -29,8 +29,9 @@ class SensatUrban:
                               'birmingham_block_5',
                               'cambridge_block_10',
                               'cambridge_block_7']
-        self.test_file_name = ['cropCentre_0', 'cropLib_0',
-                               'cropLocal_0', 'cropZurich_0']
+        self.test_file_name = ['birmingham_block_2', 'birmingham_block_8',
+                               'cambridge_block_15', 'cambridge_block_22',
+                               'cambridge_block_16', 'cambridge_block_27']
         self.use_val = True  # whether use validation set or not
 
         # initialize
